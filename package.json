@@ -1,0 +1,25 @@
+{
+  "name": "rhosr-nodejs-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node -r dotenv/config src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Evan Shortiss <evanshortiss@gmail.com> (https://evanshortiss.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "@kafkajs/confluent-schema-registry": "^3.2.1",
+    "barelog": "^0.2.0",
+    "dotenv": "^16.0.0",
+    "env-var": "^7.1.1",
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "^17.0.23",
+    "typescript": "^4.6.3"
+  }
+}
